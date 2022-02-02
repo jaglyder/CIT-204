@@ -1,0 +1,227 @@
+
+
+
+.header {
+  padding:5px;
+  text-align: center;
+  background: #69858c;
+  color: silver;
+  font-size: 20px;
+  height:90px;
+}
+.row {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #a9bbc7;
+  font-family: Helvetica, Arial, serif;
+}
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+ul {
+  border: 1px solid #555;
+}
+
+li {
+  text-align: center;
+  border-bottom: 1px solid #555;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: #d191d9;
+  color: black;
+}
+body{
+	 background-image: url("final_assets/Griz_rebel2.png");
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("final_assets/Griz_rebel2.png");
+
+  /* Set a specific height */
+  height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+#wrapper
+{
+border: 0px;
+padding: 0px;
+width: 945px;
+margin: 0px auto;
+box-sizing: border-box;
+display: flex;
+position: relative;
+background-color: #91222200;
+}
+
+
+#leftcolumn
+{
+  box-sizing: border-box;
+  border: 0px;
+  padding: 0px;
+  width: 315px;
+  height: 500px;
+  margin: 0px;
+  background-color: #08d2db9e;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#rightcolumn {
+  box-sizing: border-box;
+  border: 0px;
+  padding: 0px;
+  width: 315px;
+  height: 500px;
+  margin: 0px;
+  background-color: #08d2db9e;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#centercolumn
+{
+  box-sizing: border-box;
+  border: 0px;
+  padding: 0px;
+  width: 315px;
+  height: 500px;
+  margin: 0px;
+  background-color: #08d2db9e;
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  text-align: center;
+  font-size: 1em;
+  font-weight: 200;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.album-wrapper{
+  box-sizing: border-box;
+  border: 0px;
+  padding: 0px;
+  margin: 0,0,0,0;
+  height: 320px;
+  width: 275px;
+  /* background-color: blue; */
+}
+.album-title-wrapper{
+  box-sizing: border-box;
+  border: 0px;
+  padding: 0px;
+  padding-top: 7px;
+  margin: 0px;
+  height: 35px;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+  font-family: 'Roboto', Helvetica, Arial;
+}
+.album-image-wrapper{
+  box-sizing: border-box;
+  border: 0px;
+  padding: 0px;
+  margin: 0px;
+  height: 215px;
+  width: 100%;
+  /* background-color: green; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.album-sample-wrapper{
+  box-sizing: border-box;
+  border: 0px;
+  padding: 0px;
+  padding-top: 7px;
+  margin: 0px;
+  height: 70px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.audio-sample{
+  width: 90%
+}
+.fanpage-wrapper{
+  box-sizing: border-box;
+  border: 0px;
+  padding: 0px;
+  margin: 0px;
+  height: 100px;
+  width: 100%;
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Helvetica, Arial, serif;
+  font-size: 20px;
+}
+
+#fanpage-wrapper-left{
+  display: flex;
+  justify-content: center;
+  text-align: right;
+}
+#fanpage-wrapper-center{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.fanpage-link{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 20px;
+  width: 20px;
+}
+#fanpage-wrapper-right{
+  display: flex;
+  justify-content: center;
+  text-align: left;
+}
+.fanpage-link-pointer{
+  width: 100%;
+}
+.homepage-wrapper{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

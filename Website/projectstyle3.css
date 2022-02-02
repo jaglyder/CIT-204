@@ -1,0 +1,117 @@
+
+
+
+.header {
+  padding:5px;
+  text-align: center;
+  background: #cbf404;
+  color: silver;
+  font-size: 20px;
+  height:90px;
+}
+.row {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #dd358b;
+  font: italic 1.2em Fira Sans, serif;
+}
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+ul {
+  border: 1px solid #555;
+}
+
+li {
+  text-align: center;
+  border-bottom: 1px solid #555;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: #63ddc0;
+  color: black;
+}
+
+
+
+
+body {
+  background-image: url("final_assets/bangers.png");
+  background-repeat: repeat-x;
+}
+
+
+
+#wrapper
+{
+width: 950px;
+margin: 0px auto;
+position: relative;
+background-color: #91222200;
+}
+
+
+#leftcolumn
+{
+position: absolute;
+top: 0px;
+left: 0px;
+width: 200px;
+padding: 0 0 0 0;
+background-color: #cbf404d9;
+font-family: Helvetica, Arial, serif;
+text-align: center;
+font-size: .85em;
+  font-weight: 100;
+}
+
+#rightcolumn {
+position: absolute;
+top: 0px;
+right: 0px;
+width: 200px;
+float: right;
+padding: 0 0 0 0;
+background-color: #cbf40400;
+font-family: 'Roboto', Helvetica, Arial, serif;
+text-align: center;
+font-size: 1em;
+  font-weight: 200;
+}
+
+#centercolumn
+{
+top: 0px;
+margin-left: 200px;
+margin-right: 200px;
+padding: 0 0 0 0;
+position: static;
+background-color: #cbf404;
+text-align: center;
+font-size: 1em
+}
+H3 { text-align: center }
+H4 { text-align: center }
+p { 
+   text-indent: 30px;
+}
+H4 { text-align: center }

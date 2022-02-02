@@ -1,0 +1,12 @@
+details {
+
+background-color: orange;
+width: 30%;
+
+}
+
+details a:hover {
+
+background-color: purple;
+
+}
